@@ -19,7 +19,32 @@ p{
 }
 
 /* utility classes */
+.text-primary{
+    color:#93cb52;
+}
 
+/* navbar */
 #navbar{
-    
+    display: flex;
+    justify-content: space-between;
+    background: #444;
+    color:#fff;
+    position: sticky;
+    z-index: 1;
+    padding: 1.7rem;
+}
+
+#navbar ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+#navbar ul li a{
+   color:#fff;
+   padding: 0.75rem;
+   margin:0 0.25rem;
+}
+#navbar ul li a:hover{
+    background: #93cb52;
+    border-radius: 5px;
 }
