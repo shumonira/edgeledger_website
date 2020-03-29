@@ -23,6 +23,16 @@ p{
     color:#93cb52;
 }
 
+.btn{
+    background: #93cb52;
+    color: #fff;
+    padding: 0.78rem;
+    border-radius: 5px;
+}
+
+.btn:hover{
+    background: #7ab436;
+}
 /* navbar */
 #navbar{
     display: flex;
@@ -48,3 +58,31 @@ p{
     background: #93cb52;
     border-radius: 5px;
 }
+
+/* showcase */
+
+#showcase{
+    background: url(/img/showcase.jpg);
+    height: 100vh;
+    color:#fff;
+}
+
+#showcase .showcase-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 100%;
+
+/*overly*/
+
+    position: absolute;
+    left:0;
+    right:0;
+    top:82px;
+    bottom:0;
+    background-color: rgba(0, 0, 0, 0.4);
+ 
+}
+
