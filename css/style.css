@@ -128,3 +128,28 @@ p{
     padding:  1.5rem;
     border-radius: 50%;
 }
+
+/* who section  */
+
+#who{
+    display: flex;
+    
+   
+}
+
+#who .imgs{
+    background: url(/img/people.jpg) no-repeat center center/cover;
+    }
+#who div{
+    flex: 1;
+}
+
+#who .text{
+    background: #444;
+    color: #fff;
+    padding: 1rem;
+}
+
+#who .text .person{
+    border-bottom: 1px dotted #333;  
+}
