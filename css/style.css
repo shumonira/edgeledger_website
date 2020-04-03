@@ -153,3 +153,47 @@ p{
 #who .text .person{
     border-bottom: 1px dotted #333;  
 }
+
+/* contact */
+
+#contact{
+    display: flex;
+}
+
+#contact .contact-form,
+#contact .map{
+    flex:1;
+}
+
+#contact label{
+    display: block;
+    padding: 0.75rem 0;
+}
+
+#contact .contact-form{
+    padding: 0.75rem;
+    background: #7ab436;
+}
+
+#contact .contact-form input,
+#contact .contact-form textarea{
+    display: block;
+    width: 100%;
+    padding: 0.50rem;
+    
+}
+
+#contact .contact-form .contact-btn{
+    border: 1px solid #333;
+    background: #333;
+    color: #fff;
+    display: block;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 0.80rem;
+    cursor: pointer;
+}
+
+#contact .contact-form .contact-btn:hover{
+    background: #7ab436;
+}
