@@ -23,7 +23,9 @@ p{
     color:#93cb52;
 
 }
-
+.text-center{
+    text-align: center;
+}
 .m-heading{
     text-align: center;
     padding: 2rem;
@@ -49,6 +51,19 @@ p{
 .btn:hover{
     background: #7ab436;
 }
+
+.bg-dark{
+    background: #333;
+    color:#fff;
+}
+.py-1{ padding: 1.5rem 0;}
+.py-2{ padding: 2rem 0;}
+.py-3{ padding: 3rem 0;}
+
+.p-1 { padding: 1.5rem;}
+.p-2 { padding: 2rem;}
+.p-3 { padding: 3rem;}
+
 /* navbar */
 #navbar{
     display: flex;
