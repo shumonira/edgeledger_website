@@ -1,0 +1,16 @@
+#what .boxes{
+    display: block;
+    padding: 1rem;
+}
+
+/* Aligh what */
+#what .boxes .box{
+    display: flex;
+    text-align: left;
+    
+}
+
+#what .boxes .box i{
+    margin-right: 1.3rem;
+    align-self: center;
+}
