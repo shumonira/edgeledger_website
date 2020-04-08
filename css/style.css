@@ -175,9 +175,10 @@ p{
     display: flex;
 }
 
-#contact .contact-form,
-#contact .map{
-    flex:1;
+#contact .map,
+#contact .contact-form
+{
+    flex: 1;
 }
 
 #contact label{
